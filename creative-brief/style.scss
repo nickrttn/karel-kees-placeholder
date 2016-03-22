@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Fira+Sans:300,300italic,400,400italic,500,500italic);
+
+$blue: lighten(#267ae8, 0%);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body > header h1 {
+	font-family: 'Fira Mono', monospace;
+	margin-bottom: 0;
+}
+
+body > header p {
+	color: #999;
+	margin-top: 0;
+	font-size: .8em
+}
+
+body {
+	font: 300 1em/1.65 'Fira Sans', sans-serif;
+	// margin: 0 auto;
+	// max-width: 45em;
+}
+
+article {
+	// padding: 0 2em;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+	color: $blue;
+	font-weight: 500;
+	margin: 2em 0 .5em;
+}
+
+h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+p {
+	margin: 1.5em 0;
+}
+
+a {
+	color: $blue;
+}
+
+ul, ol	{
+	padding-left: 2em;
+}
+
+ul li, ol li {
+	margin-bottom: .75em;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+	margin: 1.5em 0;
+}
+
+strong {
+	font-weight: 500;
+}
+
+table {
+	font-family: 'Fira Mono', monospace;
+	font-size: 0.833em;
+}
+
+table th {
+	color: white;
+	background: $blue;
+	&:first-of-type,
+	&:nth-of-type(3) {
+		text-align: left;
+	}
+}
+
+table th,
+table td {
+	padding: .25em .5em;
+}
+
+table tr:nth-child(even) {
+	background: lighten($blue, 43%);
+}
+
+table td:first-of-type {
+	font-weight: 700;
+}
+
+table td:nth-of-type(4) {
+	text-align: center;
+}
+
+table td:nth-of-type(5),
+table td:last-of-type {
+	text-align: right;
+	font-weight: 700;
+}
+
+table tr:first-of-type td:nth-of-type(5),
+table tr:nth-of-type(2) td:nth-of-type(5),
+table tr:nth-of-type(3) td:nth-of-type(5),
+table tr:nth-of-type(4) td:nth-of-type(5),
+table tr:nth-of-type(5) td:nth-of-type(5) {
+	text-align: center;
+	font-weight: 400;
+}
+
+table td:nth-of-type(6) {
+	font-weight: 400;
+}
+
+table tr:nth-of-type(6) td:nth-of-type(6) {
+	border-top: 4px double $blue;
+}
+
+table tr:nth-of-type(7) td:nth-of-type(6) {
+	color: $blue;
+	font-weight: 700;
+}

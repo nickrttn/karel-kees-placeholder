@@ -1,0 +1,25 @@
+{
+  "name": "coming-soon",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nick Rutten <hello@nickrttn.me>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "homepage": "karelenkees.nl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^3.0.3"
+  }
+}
